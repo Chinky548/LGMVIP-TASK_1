@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontstyle.css">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Convergence&family=Fredoka+One&family=Palanquin+Dark&family=Poppins:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <title>Watch Web</title>
+
+    <!------------------------****************************************** Javascript part ***************************************************----------------------->
+    <script>
+function chnage(){
+    document.querySelector("body").style.background="black";
+    document.querySelector("#quotes").style.color="white";
+    document.querySelector("#line_2").style.color="white";
+
+}
+function gone(){
+
+document.querySelector("body").style.background="#abfdfd";
+    document.querySelector("#quotes").style.color="black";
+    document.querySelector("#line_2").style.color="black";
+}
+
+
+
+    </script>
+</head>
+<body>
+    <div class="maincont">
+     <div class="logo"><img id="logoro" src="ghadi.png"><h11>TIMMER.COM</h11> </div>
+     <div class="menu">
+        <button type="button"  ondblclick="gone()" onclick="chnage()"><img class="icon" src="mode.png"></button>
+        <a href="#"><button type="button">Home</button></a>
+        <a href="#"><button type="button">About</button></a>
+        <a href="#"><button type="button">Collection</button></a>
+        <a href="#"><button type="button">Log-in</button></a>
+    <input type="text"  id="inputhold" placeholder="    Serach..."></div>
+
+    </div>
+    <div class="loweritem"><img id="bigimg" src="watch.png">
+    <p id="quotes"> The two most powerful warriors are <br> patience and time<code>....</code></p>
+<p1 id="line_2">“Prioritizing is an important aspect of productivity.</code> more to add, <br>  Listed tasks should be things that matter: things that are in alignment with your  <code>objectives</code>”</p1></div>
+    <div class="btndown">
+     <button type="button" id="btn_1">COLLECTIONS</button>
+         <button type="button" id="btn_2">BRANDS</button>
+        <button type="button"  id="btn_3">OCCASION</button>
+         <button type="button" id="btn_4">EXPLORE</button>
+    </div>
+    <div class="container">
+        <div class="cont_1"><img id="watch_1" src="watach.png">
+       <a href="#"> <button class="hphbtn">Buy Now</button></a></div>
+        <div class="cont_2"><h1 id="bootstrap"><img id="watch_2" src="watch1.png">
+           <a href="#"> <button class="btn_23">Buy Now</button></a><h1>999,00</h1></div>
+    </div>
+    <div class="container">
+        <div id="first_1" class="cont_1"><img id="watch_3" src="watch3.png">
+           <a href="#"> <button class="hphbtn">Buy Now</button></a></div>
+        <div id="second_2" class="cont_2"><img id="watch_4" src="watch5.png">
+           <a href="#"> <button class="btn_12">Buy Now</button></a></div>
+    </div>
+    <div class="lastcontainer">
+       <a href="#"> <button id="more_btn" type="button">Buy Now</button></a>
+    </div>
+    
+</body>
+</html>

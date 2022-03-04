@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ecb7bf;
+}
+.maincont{
+    width: 1518px;
+    height: 60px;
+    background-color: #333333;
+    padding-top: -2px;
+    position: absolute;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius:6px;
+    margin-left: 0;
+}
+.overpage{
+   width: 400px;
+   height: 500px;
+   background-color: white;
+   position: absolute;
+   top:140px;
+   left: 580px;
+   border-radius: 8px;
+   display:none;}
+  #headline {
+      position: relative;
+      left: 130px;
+      top: -30px;
+   font-family: 'Fredoka One', cursive;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 30px;
+font-weight: bold;
+  
+}
+#user{
+ border-top-style: none;
+ border-left-style: none;
+ border-right-style: none;
+ position: relative;
+ top: 70px;
+ left: 120px;
+}
+#passd{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    position: relative;
+    left: 120px;
+    top: 90px;  
+}
+
+#login_btn{
+    width: 80px;
+    height: 40px;
+    background-color: #0099ff;
+    position: relative;
+    top: 140px;
+    left: 20px;
+}
+#newaccount{
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 140px;
+    left:90px;
+}
+#link{
+    position: relative;
+    top: 90px;
+    left: 140px;
+}
+
+#curve{
+    position: absolute;
+    top: 205px;
+    
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+
+}
+#logoro{
+width: 35px;
+height: 35px;
+position: relative;
+top: 10px;
+left: 5px;
+}
+h11{
+    position: relative;
+    left: 10px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Fredoka One', cursive;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.menu{
+    display: flex;
+    position: relative;
+    left: 860px;
+    top: -40px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    color: white;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -10px;
+}
+button:hover{
+    color: #abfdfd;
+   
+    transition: 1s;
+}
+#inputhold{
+    width: 220px;
+    height: 40px;
+    background-color: #1b1b1b;
+    position: relative;
+    top:10px;
+    left: -10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+#bigimg{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 150px;
+    left: 1050px;
+}
+p{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;top: -260px;
+    left: 50px;
+}
+#line_2{
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: monospace;
+    position:relative;
+   top: -300px;
+   font-weight: bold;
+   left: 40px;
+
+}
+
+
+code{
+    color: red;
+}
+
+/*****************************************************here the code of lower btn like html,css,javascript,more*****************************/
+.btndown{
+   
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -280px;
+    left: 40px;
+}
+
+#btn_1{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: #152238;
+    align-items: center;
+    justify-content: center;
+    
+}
+#btn_2{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: #152238;
+    align-items: center;
+    justify-content: center;
+}
+#btn_3{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: #152238;
+    align-items: center;
+    justify-content: center;
+}
+#btn_4{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    background-color: #152238;
+    align-items: center;
+    justify-content: center;
+}
+#btn_1:hover{
+    background-color: #00ff00;
+    color: white;
+}
+#btn_2:hover{
+    background-color: #00ff00;
+    color: white;
+}
+#btn_3:hover{
+    background-color: #00ff00;
+    color: white;
+}
+#btn_4:hover{
+    background-color: #00ff00;
+    color: white;
+}
+.container{
+    display: inline-flex;
+   
+    
+}
+.cont_1{
+    width: 600px;
+    height: 380px;
+    background-color: #1b1e23;
+    margin: 80px;
+    position: relative;
+    top: -80px;
+    border-radius: 10px;
+    justify-content: center;
+  
+}.cont_1 img {
+width: 330px;
+height: 300px;
+position: relative;
+top: 40px;
+}
+.cont_2{
+    width: 600px;
+    height: 380px;
+    background-color: #1b1e23;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+}
+.cont_2 img {
+    width: 380px;
+    height: 400px;
+    position: relative;
+    top: -40px;
+    left: -40px;
+    }
+
+ #watch_2{
+     position: relative;
+     left: -260px;
+     top: -80px;
+ }
+
+
+
+
+#first_1{
+    position: relative;
+    top: -180px;
+    background-color: #1b1e23;
+}
+#second_2{
+    position: relative;
+    top: -100px;
+    background-color: #1b1e23;
+    
+}
+h1{
+position: relative;
+top: 30px;
+left:250px;
+font-weight: bold;
+font-size: 45px;
+font-family: 'Fredoka One', cursive;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+h4{
+    position: relative;
+    top: 10px;
+    left:160px;
+   
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .hphbtn{
+        width: 170px;
+        height: 40px;
+        background-color:#00ff00;
+        border-radius: 8px;
+        position: relative;
+        top: -110px;
+        left:10px;
+
+    }
+    .hphbtn:hover{
+        background-color: #FF6700;
+        color: black;
+    }
+    
+    .btn_12{ width: 170px;
+        height: 40px;
+        background-color:#00ff00;
+        position: relative;
+        top: -200px;
+       
+        left: -60px;
+    }
+    .btn_12:hover{
+        background-color: #FF6700;
+        color: black;
+    }
+    .btn_23{
+
+        width: 170px;
+        height: 40px;
+        background-color:#00ff00;
+        position: relative;
+        top: -260px;
+       
+        left: -310px;
+    }
+    .btn_23:hover{
+        background-color: #FF6700;
+        color: black;
+    }
+    #more_btn{
+        width: 250px;
+        height: 80px;
+        background-color:#00ff00;
+        border-radius: 8px;
+        position: relative;
+        top: -200px;
+        left:590px;
+        font-size: 22px;
+
+    }
+   
+    
+    
+    #more_btn:hover{
+        background-color:#152238; 
+        color: white;
+    }
+   
